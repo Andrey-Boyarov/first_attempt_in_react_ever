@@ -1,0 +1,32 @@
+* {
+  background: #041934;
+  font-family: "Roboto", "serif";
+  color: antiquewhite;
+}
+
+.container {
+  max-width: 100vw;
+  height: 97vh;
+  margin: 0;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .header {
+  height: 10vh;
+}
+.container .footer {
+  opacity: 50%;
+  border-radius: 10px;
+  max-width: 100vw;
+  padding: 10px;
+  border: 2px solid black;
+  background: gray;
+}
+.container .footer p {
+  background: gray;
+}
+
+/*# sourceMappingURL=App.css.map */

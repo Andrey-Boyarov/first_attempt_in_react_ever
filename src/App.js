@@ -1,21 +1,15 @@
-import './Style.css';
 import React from 'react';
+import Header from "./Header";
+import Footer from "./Footer";
+import "./App.css";
+import Main from "./Main";
 
-function App() {
-  return (
-      <div className="App">
-        <h1>Hello</h1>
-        <p className="text">HelloText</p>
-        <hr/>
-        <select>
-            <option value={1}>Pizza</option>
-            <option value={2}>Sushi</option>
-            <option value={3}>{React.version}</option>
-        </select>
-        <hr/>
-        <img src={require("./react-logo.png")} alt={"react"} title={"react"}/>
-      </div>
-  );
+export default function App() {
+    return (
+        <div className="container">
+            <Header/>
+            <Main/>
+            <Footer/>
+        </div>
+    );
 }
-
-export default App;
